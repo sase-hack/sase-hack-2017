@@ -26,12 +26,11 @@ Based on Army's Performance Triad:
 ## Datasets
 
 ### Sleep-Related Datasets
-*CDC's National Health and Nutrition Examination Survey (2013-14)* - This data focuses on sleep disorders and includes a questionnaire on sleep habits and disorders.
-* [Data Documentation](https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/SLQ_H.htm)
-* [Data](https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Questionnaire&CycleBeginYear=2013)
-* [Data as csv](https://github.com/sase-hack/sase-hack-2017/data/NHANES)
+*CDC's National Health and Nutrition Examination Survey (2005-14)* - Provides data on sleep disorders and includes a questionnaire on sleep habits and disorders.
+* [Data (SAS) and Documentation](https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx)
+* [Data (CSV)](https://github.com/sase-hack/sase-hack-2017/data/NHANES-Sleep)
 ```
-Data is formatted in a SAS collection. CSVs are in Github's [`data/NHANES`](https://github.com/sase-hack/sase-hack-2017/data/NHANES) folder.
+Data is formatted in a SAS collection. CSVs are in Github's `data/NHANES-Sleep` folder.
 ```
 ---
 *Bureau of Labor Statistics's American Time Use Survey (2003-16)* - This data surveys down to BIPS and includes amount of time people spend doing activities. Data on over 10,000 households. Survey conducted annually.
