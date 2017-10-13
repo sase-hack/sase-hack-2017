@@ -29,8 +29,9 @@ Based on Army's Performance Triad:
 *CDC's National Health and Nutrition Examination Survey (2013-14)* - This data focuses on sleep disorders and includes a questionnaire on sleep habits and disorders.
 * [Data Documentation](https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/SLQ_H.htm)
 * [Data](https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Questionnaire&CycleBeginYear=2013)
+* [Data as csv](https://github.com/sase-hack/sase-hack-2017/data/HANES)
 ```
-Data is formatted in a SAS collection.
+Data is formatted in a SAS collection. CSVs are in Github's `data` folder.
 ```
 ---
 *Bureau of Labor Statistics's American Time Use Survey (2003-16)* - This data surveys down to BIPS and includes amount of time people spend doing activities. Data on over 10,000 households. Survey conducted annually.
@@ -52,9 +53,6 @@ This dataset includes data from 2004-2013 for county-level diabetes, obesity, an
 *USDA Food Environment Atlas (v. years from 2000-2012)* -
 This dataset includes a number of features regarding Food Environment, such as store/restaurant availability, SNAP Program, National School Lunch Program (NSLP), School Breakfast Program (SBP), Summer Food Service Program (SFSP), Child and Adult Care Food Program (CACFP), and the WIC Program. Also includes obesity and recreation/fitness facilities.
 * [Data/Documentation](https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads/)
-```
-Multi-tab Excel format may be displeasing to some. May want to flatten.
-```
 ---
 ### Youth-Focus
 *National Survey of Children's Health (2003,2007,2011-12)* -
