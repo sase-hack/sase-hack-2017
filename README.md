@@ -69,7 +69,7 @@ Data is in PDF form and appears to be an aggregate level.
 ```
 
 ## Other Sources
-*[Healthdata.gov](https://www.healthdata.gov/search/type/dataset)
-*[Data.gov](http://www.data.gov)
-*[Reddit: Datasets](http://www.reddit.com/r/datasets)
-*[Kaggle Datasets](http://www.kaggle.com/datasets)
+* [Healthdata.gov](https://www.healthdata.gov/search/type/dataset)
+* [Data.gov](http://www.data.gov)
+* [Reddit: Datasets](http://www.reddit.com/r/datasets)
+* [Kaggle Datasets](http://www.kaggle.com/datasets)
