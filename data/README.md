@@ -1,6 +1,8 @@
 # sase-hack-2017
 
-This repository is for storing cleaned datasets for use at SASE Hackathon 2017.
+This repository is for storing cleaned datasets for use at SASE Hackathon 2017. These are sample datasets that can be used, but are not comprehensive resources for the topics.
+
+If you find a dataset that could be shared with the hackathon group, please reach out to a mentor or e-mail sasehack(at)gmail.com.
 
 - [Further Topics](#topics-for-further-description--explanation)
 - [Dataset Categories](#dataset-categories)
