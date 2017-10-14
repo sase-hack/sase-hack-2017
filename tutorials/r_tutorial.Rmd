@@ -1,0 +1,70 @@
+---
+title: "R Tutorial with Obesity Data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Looking at the data
+
+```{r data summary}
+data<-read.csv("../data/nutrition.csv")
+head(data,20)
+```
+
+## Obesity Rate by Age
+
+```{r experiment}
+# For the question 'percent of adults aged 18 years and older who have obesity', 
+# what is the age stratification vs. obesity rate
+```
+
+```{r, message=FALSE}
+# dplyr library for group_by function
+library(dplyr)
+
+```
+
+```{r obesity-data}
+obesity_data <- filter(data,Question == 'Percent of adults aged 18 years and older who have obesity')
+age_obesity_data<-filter(obesity_data,StratificationCategory1=="Age (years)")
+obesitybyage<-summarise(group_by(age_obesity_data,Stratification1),mean=mean(Data_Value))
+obesitybyage
+```
+
+## Data Visualization of Obesity Rate by Age
+
+```{r, message=FALSE}
+# ggplot2 library for ggplot function
+library(ggplot2)
+ggplot(data=obesitybyage, aes(x=Stratification1,y=mean,fill=factor(Stratification1))) +
+  geom_bar(position="dodge",stat="identity") + xlab("Age Group") + ylab("Obesity Rate") + scale_fill_brewer(palette="BuGn",direction=-1) + guides(fill=guide_legend(title="Age Group")) 
+```
+
+## Linear Regression
+```{r lr}
+fit<-lm(Data_Value~YearStart,data=age_obesity_data)
+summary(fit)
+```
+
+## Group by State
+```{r}
+options(DT.options = list(pageLength = 54)) #for printing - set length of datatable to 54
+obesitybystate<-summarise(group_by(obesity_data,LocationAbbr),mean=mean(Data_Value,na.rm=TRUE))
+obesitybystate %>% DT::datatable()
+```
+
+```{r fig.width=11, fig.height=4}
+ggplot(data=obesitybystate, aes(x=LocationAbbr, y=mean, fill=factor(LocationAbbr))) + geom_bar(position="dodge", stat="identity") +xlab("Stte") + ylab("Obesity Rate") + theme(legend.position="none")
+```
+
+## 10 States with Highest Obesity Rates 
+
+```{r, message=FALSE}
+library(plyr)
+top10states<-head(arrange(obesitybystate,desc(mean)), n = 10)
+top10states$LocationAbbr <- factor(top10states$LocationAbbr, levels = top10states$LocationAbbr[order(top10states$mean)])
+ggplot(data=top10states, aes(x=LocationAbbr, y=mean, fill=factor(LocationAbbr))) + geom_bar(position="dodge", stat="identity") +xlab("State") + ylab("Obesity Rate") + theme(legend.position="none") + scale_fill_brewer(palette="Paired")
+```
