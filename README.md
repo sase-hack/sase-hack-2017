@@ -75,11 +75,11 @@ Data is in PDF form and appears to be an aggregate level.
 ```
 
 ### Military Population Data
-*U.S. Military Installations
+*U.S. Military Installations* -
 This dataset includes shapefiles for U.S. Military Installations.
 * [Data (Shapefiles)](https://catalog.data.gov/dataset/tiger-line-shapefile-2015-nation-u-s-military-installation-national-shapefile)
 ---
-*Census FactFinder: Veteran Status
+*Census FactFinder: Veteran Status* -
 This dataset is a part of the American Community Survey (ACS). It includes information on veteran population, demographics, characteristics, and more. It is filterable by geography.
 * [Data Portal](https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_15_5YR_S2101&prodType=table)
 ---
