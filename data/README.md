@@ -58,7 +58,7 @@ This dataset includes a number of features regarding Food Environment, such as s
 This dataset includes survey information for physical and emotional health of children ages 0-17. Special focus is made on the child's well-being, which includes family, home environment, school, and neighborhood. Completed over 95,000 child interviews.
 * [Data (SAS)](https://www.cdc.gov/nchs/slaits/nsch.htm)
 * [Data (CSV)](https://github.com/sase-hack/sase-hack-2017/data/NSCH-Children/nsch_2011_2012_puf.csv)
-* [Documentation](ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/slaits/nsch07/4_List_of_Variables_and_Frequency_Counts/2007_NSCH_Formatted_Frequencies.pdf)
+* [Documentation](http://ftp.cdc.gov/pub/Health_Statistics/NCHS/slaits/nsch07/4_List_of_Variables_and_Frequency_Counts/2007_NSCH_Formatted_Frequencies.pdf)
 ```
 Data formatted in SAS. CSV is in Github's `data/NSCH-Children` folder.
 ```
