@@ -10,6 +10,7 @@ If you find a dataset that could be shared with the hackathon group, please reac
 	+ [Sleep-Related Datasets](#sleep-related-datasets)
 	+ [Nutrition, Physical Activity, and Obesity](#nutrition-physical-activity-and-obesity)
 	+ [Youth-Focus](#youth-focus)
+	+ [Military Population Data](#military-population-data)
 - [Other Sources](#other-sources)
 
 ## Dataset Categories
@@ -55,6 +56,7 @@ This dataset includes data from 2004-2013 for county-level diabetes, obesity, an
 This dataset includes a number of features regarding Food Environment, such as store/restaurant availability, SNAP Program, National School Lunch Program (NSLP), School Breakfast Program (SBP), Summer Food Service Program (SFSP), Child and Adult Care Food Program (CACFP), and the WIC Program. Also includes obesity and recreation/fitness facilities.
 * [Data/Documentation](https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads/)
 ---
+
 ### Youth-Focus
 *National Survey of Children's Health (2003,2007,2011-12)* -
 This dataset includes survey information for physical and emotional health of children ages 0-17. Special focus is made on the child's well-being, which includes family, home environment, school, and neighborhood. Completed over 95,000 child interviews.
